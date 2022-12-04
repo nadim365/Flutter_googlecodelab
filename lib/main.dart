@@ -29,8 +29,8 @@ class _RandomWordsState extends State<RandomWords> {
   final _biggerFont = const TextStyle(fontSize: 18.0);
   final _saved = <WordPair>{};
 
-  void _pushSaved () {
-    
+  void _pushSaved() {
+    Navigator.of(context).push();
   }
 
   @override
